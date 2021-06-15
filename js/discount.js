@@ -14,7 +14,7 @@
  * «Оформляем заказ на сумму [сумма] со скидкой [скидка]%»
  */
 
-let totalSpent = 5000;
+let totalSpent = 4500;
 const payment = 1234;
 const valuta = 'грн.'
 let discount;
