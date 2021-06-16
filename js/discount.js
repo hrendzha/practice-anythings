@@ -14,8 +14,8 @@
  * «Оформляем заказ на сумму [сумма] со скидкой [скидка]%»
  */
 
-let totalSpent = 4500;
-const payment = 1234;
+let totalSpent = 500;
+const payment = 1000;
 const valuta = 'грн.'
 let discount;
 let userDiscountStatus;
@@ -34,7 +34,7 @@ if (totalSpent >= 100 && totalSpent < 1000) {
 }
 
 const findingPercOfNum = (payment / 100) * discount;
-const totalPrice = (payment - findingPercOfNum).toFixed(2);
+const totalPrice = Number((payment - findingPercOfNum).toFixed(2));
 
 if (discount === 0) {
     console.log(`У вас еще нет партнерской скидки, чтобы получить партнерскую програму общая сума потраченого должна составлять минимально 100${valuta} :(`);
@@ -47,5 +47,5 @@ if (discount === 0) {
     console.log(`Конечная сумма со скидкой: ${totalPrice}${valuta}`);
 }
 
-totalSpent += payment
+totalSpent += totalPrice;
 console.log(`Если вы совершите покупку ваша общая сума потраченого станет ${totalSpent}${valuta}`);
