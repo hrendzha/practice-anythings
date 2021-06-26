@@ -1,6 +1,6 @@
 // Написати ф-ю capitalize яка буде приймати строку і буде вертати нову строку де кожне слово буде починатися з великої літери.
 
-// проба 1
+// проба
 // const capitalize = string => {
 //     const stringSplitInArray = string.split(' ');
 //     let newString = '';

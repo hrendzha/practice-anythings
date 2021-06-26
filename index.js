@@ -20,4 +20,9 @@
 // import './js/task-1.7.js';
 // import './js/task-1.8.js';
 // import './js/task-1.9.js';
-import './js/task-2.1.js';
+// import './js/task-2.1.js';
+// import './js/task-2.2.js';
+// import './js/task-2.3.js';
+// import './js/task-2.5.js';
+// import './js/task-2.6.js';
+import './js/task-2.7.js';
