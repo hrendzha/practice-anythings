@@ -30,3 +30,4 @@
 // import './js/task-3.1.js';
 // import './js/task-3.2.js';
 // import './js/task-3.3.js';
+import './js/new.js';
