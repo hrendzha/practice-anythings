@@ -27,4 +27,6 @@
 // import './js/task-2.6.js';
 // import './js/task-2.7.js';
 // import './js/cart.js';
-import './js/new.js';
+// import './js/task-3.1.js';
+// import './js/task-3.2.js';
+// import './js/task-3.3.js';
