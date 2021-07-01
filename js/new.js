@@ -1,3 +1,1 @@
-const name = 'pasha';
-const lastName = 'hrendzhaaaaaaa';
-let product = 'apple';
+let product;
