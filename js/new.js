@@ -1,3 +1,3 @@
 const name = 'pasha';
 const lastName = 'hrendzhaaaaaaa';
-let product;
+let product = 'apple';
