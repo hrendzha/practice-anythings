@@ -75,11 +75,3 @@ const account = {
      */
     getTransactionTotal(type) {},
 };
-
-account.deposit(150);
-account.deposit(200);
-
-console.table(account.transactions);
-// console.table(account.balance);
-
-console.log(account.getTransactionDetails(3));

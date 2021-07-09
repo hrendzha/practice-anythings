@@ -30,4 +30,9 @@
 // import './js/task-3.1.js';
 // import './js/task-3.2.js';
 // import './js/task-3.3.js';
-import './js/new.js';
+// import './js/transaction.js';
+// import './js/task-4.1.js';
+// import './js/task-4.2.js';
+// import './js/task-4.3.js';
+// import './js/task-4.4.js';
+import './js/task-5.1.js';
