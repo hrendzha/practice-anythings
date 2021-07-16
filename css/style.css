@@ -6,3 +6,7 @@ body {
 
     background-color: lightgreen;
 }
+
+.hidden {
+    display: none;
+}
