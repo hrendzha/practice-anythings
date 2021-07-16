@@ -13,4 +13,3 @@ heading.textContent = 'Nav heading';
 
 const container = document.querySelector('.container');
 container.insertBefore(heading, nav);
-nav.appendChild(heading);
