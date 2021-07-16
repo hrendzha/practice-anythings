@@ -12,4 +12,3 @@ const heading = document.createElement('h1');
 heading.textContent = 'Nav heading';
 
 const container = document.querySelector('.container');
-container.insertBefore(heading, nav);
