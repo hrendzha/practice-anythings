@@ -1,14 +1,20 @@
-// Создадим еще один li и вставим его в конец списка
-const item = document.createElement('a');
-item.href = '#';
-item.classList.add('btn');
-item.textContent = 'item 4';
+/*
+ * Дан массив с числами. Выведите последовательно его элементы используя рекурсию и не используя цикл.
+ */
 
-const nav = document.querySelector('.nav');
-nav.appendChild(item);
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// Создадим заголовок и вставим его в container перед списком
-const heading = document.createElement('h1');
-heading.textContent = 'Nav heading';
+const fn = array => {
+    console.log(array[0]);
+    array.splice(0, 1);
 
-const container = document.querySelector('.container');
+    if (array.length > 0) {
+        fn(array);
+    }
+
+    console.log('aas');
+
+    return array;
+};
+
+console.log(fn(array));
