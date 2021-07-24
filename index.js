@@ -38,4 +38,7 @@
 // import './js/task-5.1.js';
 // import './js/task-5.2.js';
 // import './js/task-6-1.js';
-import './js/new.js';
+// import './js/products.js';
+// import './js/move-ball-field.js';
+// import './js/hide-message.js';
+import './js/carousel.js';
