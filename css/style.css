@@ -3,10 +3,4 @@ body {
     font-size: 30px;
 
     padding: 40px;
-
-    background-color: lightgreen;
-}
-
-.hidden {
-    display: none;
 }
