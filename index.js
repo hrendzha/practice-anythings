@@ -41,4 +41,4 @@
 // import './js/products.js';
 // import './js/move-ball-field.js';
 // import './js/hide-message.js';
-import './js/carousel.js';
+import './js/new.js';
