@@ -1,2 +1,1 @@
-console.log('yes');
-console.log('yes 2');
+console.log(Boolean(-0));
